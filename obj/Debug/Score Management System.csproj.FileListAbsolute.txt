@@ -1,0 +1,20 @@
+C:\Users\Iloved\Desktop\Score Management System\Score Management System\bin\Debug\Score Management System.exe.config
+C:\Users\Iloved\Desktop\Score Management System\Score Management System\bin\Debug\Score Management System.exe
+C:\Users\Iloved\Desktop\Score Management System\Score Management System\bin\Debug\Score Management System.pdb
+C:\Users\Iloved\Desktop\Score Management System\Score Management System\obj\Debug\Score Management System.csprojResolveAssemblyReference.cache
+C:\Users\Iloved\Desktop\Score Management System\Score Management System\obj\Debug\Score_Management_System.Properties.Resources.resources
+C:\Users\Iloved\Desktop\Score Management System\Score Management System\obj\Debug\Score Management System.csproj.GenerateResource.Cache
+C:\Users\Iloved\Desktop\Score Management System\Score Management System\obj\Debug\Score Management System.csproj.CoreCompileInputs.cache
+C:\Users\Iloved\Desktop\Score Management System\Score Management System\obj\Debug\Score Management System.exe
+C:\Users\Iloved\Desktop\Score Management System\Score Management System\obj\Debug\Score Management System.pdb
+C:\Users\Iloved\Desktop\Score Management System\Score Management System\obj\Debug\Score_Management_System.loginform.resources
+C:\Users\Iloved\Desktop\Score Management System\Score Management System\obj\Debug\Score_Management_System.StuMainform.resources
+C:\Users\Iloved\Desktop\Score Management System\Score Management System\obj\Debug\Score_Management_System.TeaMainform.resources
+C:\Users\Iloved\Desktop\Score Management System\Score Management System\obj\Debug\Score_Management_System.Window_Stuchangepwd.resources
+C:\Users\Iloved\Desktop\Score Management System\Score Management System\obj\Debug\Score_Management_System.Window_Stuinsert.resources
+C:\Users\Iloved\Desktop\Score Management System\Score Management System\obj\Debug\Score_Management_System.Window_Stumark.resources
+C:\Users\Iloved\Desktop\Score Management System\Score Management System\obj\Debug\Score_Management_System.Window_Stuupdate.resources
+C:\Users\Iloved\Desktop\Score Management System\Score Management System\obj\Debug\Score_Management_System.Window_Tchangepwd.resources
+C:\Users\Iloved\Desktop\Score Management System\Score Management System\obj\Debug\Score_Management_System.Window_Tinsert.resources
+C:\Users\Iloved\Desktop\Score Management System\Score Management System\obj\Debug\Score_Management_System.Window_Tselect.resources
+C:\Users\Iloved\Desktop\Score Management System\Score Management System\obj\Debug\Score_Management_System.Window_TupdateAndDelete.resources

@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0ACE5479-754C-4642-B6FE-99D9D4F540FF}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Score_Management_System</RootNamespace>
+    <AssemblyName>Score Management System</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DB.cs" />
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Window_Stuchangepwd.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Window_Stuchangepwd.Designer.cs">
+      <DependentUpon>Window_Stuchangepwd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Window_Stuinsert.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Window_Stuinsert.Designer.cs">
+      <DependentUpon>Window_Stuinsert.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Window_Stumark.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Window_Stumark.Designer.cs">
+      <DependentUpon>Window_Stumark.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StuMainform.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StuMainform.Designer.cs">
+      <DependentUpon>StuMainform.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Window_Stuupdate.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Window_Stuupdate.Designer.cs">
+      <DependentUpon>Window_Stuupdate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TeaMainform.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TeaMainform.Designer.cs">
+      <DependentUpon>TeaMainform.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Window_Tchangepwd.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Window_Tchangepwd.Designer.cs">
+      <DependentUpon>Window_Tchangepwd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Window_Tinsert.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Window_Tinsert.Designer.cs">
+      <DependentUpon>Window_Tinsert.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Window_Tselect.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Window_Tselect.Designer.cs">
+      <DependentUpon>Window_Tselect.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Window_TupdateAndDelete.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Window_TupdateAndDelete.Designer.cs">
+      <DependentUpon>Window_TupdateAndDelete.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Window_Stuchangepwd.resx">
+      <DependentUpon>Window_Stuchangepwd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Window_Stuinsert.resx">
+      <DependentUpon>Window_Stuinsert.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Window_Stumark.resx">
+      <DependentUpon>Window_Stumark.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StuMainform.resx">
+      <DependentUpon>StuMainform.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="TeaMainform.resx">
+      <DependentUpon>TeaMainform.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Window_Stuupdate.resx">
+      <DependentUpon>Window_Stuupdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Window_Tchangepwd.resx">
+      <DependentUpon>Window_Tchangepwd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Window_Tinsert.resx">
+      <DependentUpon>Window_Tinsert.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Window_Tselect.resx">
+      <DependentUpon>Window_Tselect.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Window_TupdateAndDelete.resx">
+      <DependentUpon>Window_TupdateAndDelete.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="image\classification.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
